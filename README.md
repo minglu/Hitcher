@@ -1,6 +1,6 @@
 # Hitcher
 
-# Enviroment setup
+## Enviroment setup
 
 - Install [Node.js](https://nodejs.org/en/).
 - Install Expo CLI command line utility, react native CLI
