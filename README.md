@@ -11,3 +11,12 @@ npm install -g react-native-cli
 cd Hitcher
 expo start
 ```
+if you can not install expo cli globally with permission issue please try the following:
+```
+mkdir ~/.npm-global
+npm config set prefix '~/.npm-global'
+export PATH=~/.npm-global/bin:$PATH
+source ~/.profile
+npm install -g jshint
+```
+then try npm install expo-cli --global
